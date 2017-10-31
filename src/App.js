@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootswatch/journal/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, NavItem, Nav, Grid, Row, Col } from 'react-bootstrap';
 
 const PLACES = [
@@ -9,6 +8,7 @@ const PLACES = [
   { name: "San Jose", zip: "94088" },
   { name: "Santa Cruz", zip: "95062" },
   { name: "Honolulu", zip: "96803" },
+  { name: "Atlanta", zip: "30308" },
 ];
 
 class WeatherDisplay extends Component {
